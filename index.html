@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link   href="main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .body {
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  img{
+    opacity: 0.1;
+  }
+  
+  .container {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 400px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+</style>
+</head>
+<body>
+<div class="body" align="center">
+</br></br></br></br></br></br></br>
+    <h1>Registration Form</h1>
+    </br>Email:
+    <input type="text" placeholder="Enter Email" name="email" required>
+    </br>Name:
+    <input type="text" placeholder="Enter Email" name="email" required>
+</br>Password:
+    <input type="password" placeholder="Enter Password" name="psw" required>
+</br>Address:
+    <input type="text" placeholder="Enter Email" name="email" required>
+</br>
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</div>
+
+
+</body>
+</html>
